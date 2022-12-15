@@ -1,0 +1,46 @@
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    font-size: xx-large;
+    background-color: rgba(233, 141, 12, 0);
+    border: none;
+}
+.ball{
+    position: relative;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+.hands{
+    inline-size: 500px;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    display: none;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+input{
+    z-index: 1;
+}
+.hands:hover {
+    animation: shake2 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake2 {
+    0% { transform: translate(0px, 0px)}
+    5% { transform: translate(0px, 5px)}
+    50% { transform: translate(0px, 0px)}
+    55% { transform: translate(0px, -5px)}
+    100% { transform: translate(0px, 0px)}
+}
+p{
+    z-index: 1;
+    top: 310px;
+    position: absolute;
+}
+ 
