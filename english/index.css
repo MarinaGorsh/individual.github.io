@@ -1,0 +1,63 @@
+.dive{
+    position: relative;
+    margin-left: 406px;
+}
+#ent{
+    margin-left: 131px;
+    margin-top: 400px;
+}
+#nex{
+    margin-left: 422px;
+    margin-top: 400px;
+}
+#easy{
+    margin-left: 32px;
+    margin-top: 470px;
+}
+#medium{
+    margin-left: 266px;
+    margin-top: 470px;
+}
+#hard{
+    margin-left: 510px;
+    margin-top: 470px;
+}
+button{
+    position: absolute;
+    font-size: x-large;
+    background-color: blueviolet;
+}
+#right{
+    position: absolute;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    display: none;
+}
+#word{
+    position: absolute;
+    margin-top: 323px;
+    margin-left: 222px;
+}
+#points{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: -15px;
+    font-size: x-large;
+}
+#summ{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 605px;
+    font-size: x-large;
+}
+#test{    
+    position: absolute;
+    margin-left: 232px;
+    font-size: xxx-large;
+    margin-top: 117px;
+}
+#eng{
+    margin-left: -57px;
+}
