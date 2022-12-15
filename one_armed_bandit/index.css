@@ -1,0 +1,88 @@
+.dive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-right: 21px;
+}
+.case{
+    position: absolute;
+    z-index: 3;
+    width: 256px;
+}
+#case1{
+    margin-left: -186px;
+    margin-top: -262px;
+}
+#case2{
+    margin-top: -262px;
+    margin-left: 114px;
+}
+#case3{
+    margin-left: 424px;
+    margin-top: -262px;
+}
+#case4{
+    margin-top: -6px;
+    margin-left: -186px;
+}
+#case5{
+    margin-left: 114px;
+    margin-top: -4px;
+}
+#case6{
+    margin-top: 2px;
+    margin-left: 424px;
+}
+#case7{
+    margin-left: -186px;
+    margin-top: 257px;
+}
+#case8{
+    margin-top: 257px;
+    margin-left: 114px;
+}
+#case9{
+    margin-top: 257px;
+    margin-left: 424px;
+}
+#username{
+    position: absolute;
+    margin-left: 112px;
+    margin-top: -429px;
+}
+#three{
+    position: absolute;
+    margin-left: -464px;
+    margin-top: -45px;
+    font-size: 50px;
+}
+button {
+    margin-right: 25px;
+    font-size: 20px;
+    border: none;
+    color: #000000;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 150ms ease-in-out;
+  }
+  button:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 100%;
+    background: #000000;
+    z-index: -1;
+    transition: width 150ms ease-in-out;
+  }
+  button:hover {
+    color: #fff;
+  }
+  button:hover:after {
+    width: 110%;
+  }
