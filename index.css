@@ -1,0 +1,126 @@
+.mask {
+    width: 420px;
+    height: 240px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -246px;
+}
+.view h2, .view2 h2, .view3 h2, .view4 h2, .view5 h2{
+    color: rgb(243, 243, 243);
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+.view p, .view2 p, .view3 p, .view4 p, .view5 p{
+    font-size: 14px;
+    position: relative;
+    color: rgb(241, 241, 241);
+    padding: 0px 10px 0px;
+    text-align: center;
+}
+.view img, .view2 img, .view3 img, .view4 img, .view5 img{
+    transition: all 0.2s linear;
+    height: 240px;
+}
+.mask, .mask2, .mask3, .mask4, .mask5{
+    opacity: 0;
+    background-color: rgba(37, 37, 37, 0.44);
+    transition: all 0.4s ease-in-out;
+}
+.view h2, .view2 h2, .view3 h2, .view4 h2, .view5 h2{
+    transform: translateY(-100px);
+    opacity: 0;
+    font-family: Raleway, serif;
+    transition: all 0.2s ease-in-out;
+}
+.view:hover .mask, .view2:hover .mask2, .view3:hover .mask3, .view4:hover .mask4, .view5:hover .mask5{
+    opacity: 1;
+} 
+.view:hover h2, .view:hover p, #link, .view2:hover h2, .view2:hover p, #link2, .view3:hover h2, .view3:hover p, #link3, .view4:hover h2, .view4:hover p, #link4, .view5:hover h2, .view5:hover p, #link5{
+    opacity: 1;
+    transform: translateY(0px);
+} 
+.view:hover p, .view2:hover p, .view3:hover p, .view4:hover p, .view5:hover p{
+    transition-delay: 0.1s;
+}
+.view{
+    margin-left: 64px;
+    width: 420px;
+    height: 240px;
+}
+
+.mask2 {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -240px;
+}
+.view2{
+    margin-left: 624px;
+    margin-top: -245px;
+    width: 240px;
+    height: 240px;
+}
+
+.mask3 {
+    height: 241px;
+    width: 243px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -240px;
+}
+.view3{
+    margin-left: 1070px;
+    margin-top: -240px;
+    width: 243px;
+    height: 240px;
+}
+
+.mask4 {
+    height: 241px;
+    width: 325px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -246px;
+}
+.view4{
+    margin-left: 370px;
+    margin-top: 41px;
+    width: 325px;
+    height: 240px;
+}
+
+.mask5 {
+    height: 241px;
+    width: 245px;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -246px;
+}
+.view5{
+    margin-left: 858px;
+    margin-top: -235px;
+    width: 325px;
+    height: 240px;
+}
+h1{
+    text-align: center;
+}
+#link{
+    margin-top: 40px;
+}
+#link2{
+    margin-top: 0px;
+}
+#link3{
+    margin-top: 0px;
+}
+#link4{
+    margin-top: 0px;
+}
+#link5{
+    margin-top: 25px;
+}
